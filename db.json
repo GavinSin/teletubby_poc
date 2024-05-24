@@ -6,20 +6,23 @@
         { "name": "Jared Dunn" },
         { "name": "Dinesh Chugtai" }
     ],
-    "login": {
-        "user": {
-            "email": "admin@teamteletubby.com"
-        },
-        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQHRlYW10ZWxldHViYnkuY29tIiwicGFzc3dvcmQiOiJwYXNzd29yZDEyMyIsImlhdCI6MTcxNjUxNzI0NiwiZXhwIjoxNzE2NTE3NDI2fQ.6MOwl5xRDCvosmtN786fNJYkWYlCh7DdqhkMIyroEo8",
-        "token_expires_in": 180,
-        "id": 1
-    },
-    "register": {
-        "message": "You have been successfully registered with us!",
-        "id": 1
-    },
+    "login": [
+        {
+            "user": {
+                "email": "admin@teamteletubby.com"
+            },
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQHRlYW10ZWxldHViYnkuY29tIiwicGFzc3dvcmQiOiJwYXNzd29yZDEyMyIsImlhdCI6MTcxNjUxNzI0NiwiZXhwIjoxNzE2NTE3NDI2fQ.6MOwl5xRDCvosmtN786fNJYkWYlCh7DdqhkMIyroEo8",
+            "token_expires_in": 180,
+            "id": 1
+        }
+    ],
+    "register": [
+        {
+            "message": "You have been successfully registered with us!",
+            "id": 1
+        }
+    ],
     "verifyEmail": {
-        "message": "Successfully verified.",
-        "id": 1
+        "message": "Successfully verified."
     }
 } 
