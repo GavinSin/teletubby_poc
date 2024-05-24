@@ -6,29 +6,17 @@
         { "name": "Jared Dunn" },
         { "name": "Dinesh Chugtai" }
     ],
-    "auth": {
-      "login": {
-        "method": "POST",
-        "response": {
-          "user": {
+    "login": {
+        "user": {
             "email": "admin@teamteletubby.com"
-          },
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQHRlYW10ZWxldHViYnkuY29tIiwicGFzc3dvcmQiOiJwYXNzd29yZDEyMyIsImlhdCI6MTcxNjUxNzI0NiwiZXhwIjoxNzE2NTE3NDI2fQ.6MOwl5xRDCvosmtN786fNJYkWYlCh7DdqhkMIyroEo8",
-          "token_expires_in": 180
-        }
-      },
-      "register": {
-        "method": "POST",
-        "response": {
-          "message": "You have been successfully registered with us!"
-        }
-      },
-      "verifyEmail": {
-        "method": "GET",
-        "response": {
-          "message": "Successfully verified."
-        }
-      }
+        },
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQHRlYW10ZWxldHViYnkuY29tIiwicGFzc3dvcmQiOiJwYXNzd29yZDEyMyIsImlhdCI6MTcxNjUxNzI0NiwiZXhwIjoxNzE2NTE3NDI2fQ.6MOwl5xRDCvosmtN786fNJYkWYlCh7DdqhkMIyroEo8",
+        "token_expires_in": 180
+    },
+    "register": {
+        "message": "You have been successfully registered with us!"
+    },
+    "verifyEmail": {
+        "message": "Successfully verified."
     }
-  }
-  
+} 
